@@ -136,7 +136,7 @@ Rules:
     with st.spinner("Creating your content..."):
         try:
             response = client.chat.completions.create(
-                model="GPT OSS 120B",
+                model="openai/gpt-oss-120b",
                 messages=[
                     {
                         "role": "system",
