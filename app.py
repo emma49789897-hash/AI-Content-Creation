@@ -136,7 +136,7 @@ Rules:
     with st.spinner("Creating your content..."):
         try:
             response = client.chat.completions.create(
-                model="llama-3.1-8b-instant",
+                model="GPT OSS 120B",
                 messages=[
                     {
                         "role": "system",
